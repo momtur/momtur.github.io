@@ -1,3 +1,15 @@
 theme: jekyll-theme-minimal
 title: Momtur Bodrum VIP Transfer
 description: Airport TransferBJV to Bodrum
+
+defaults:
+  - scope:
+      path: "" # tüm dosyalar
+      type: "pages" # tüm sayfalar
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts" # tüm yazılar
+    values:
+      layout: "post"
